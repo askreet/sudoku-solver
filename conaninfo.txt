@@ -1,0 +1,38 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=8
+    os=Linux
+
+[requires]
+    google-benchmark/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=8
+    os=Linux
+    os_build=Linux
+
+[full_requires]
+    google-benchmark/1.4.1@mpusz/stable:945b7e69a2c3565ae548da0170440dd96be71d62
+
+[full_options]
+    google-benchmark:exceptions=True
+    google-benchmark:fPIC=True
+    google-benchmark:lto=False
+    google-benchmark:shared=False
+
+[recipe_hash]
+
+
+[env]
+
